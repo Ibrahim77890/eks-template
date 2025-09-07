@@ -1,4 +1,4 @@
-<img width="1920" height="1020" alt="eks-2" src="https://github.com/user-attachments/assets/6c81d0b1-00b3-411b-abb6-f5af665a3d8c" /><img width="1918" height="1011" alt="eks-7" src="https://github.com/user-attachments/assets/27a4f745-78fe-4699-8678-de8f7a6762d3" /># eks-sim — EKS Simulation Lab (Terraform + Helm)
+# eks-sim — EKS Simulation Lab (Terraform + Helm)
 
 Rehearse a production-grade EKS architecture locally — then flip a provider to run the exact same Terraform/Helm on AWS.
 
@@ -58,5 +58,14 @@ To deploy the same setup to AWS:
 
 
 Following images for local deployment :
-<img width="1918" height="1011" alt="eks-7" src="https://github.com/user-attachments/assets/b5a30942-0b00-48bd-9445-ccddbfef95ea" />
+<img width="1920" height="1020" alt="eks-1" src="https://github.com/user-attachments/assets/c1a20824-690b-462d-b1f2-8ca6266c7e64" />
+<img width="1920" height="1020" alt="eks-2" src="https://github.com/user-attachments/assets/8d96dfb0-12e4-4be3-8edf-bd3aaf1969fe" />
+<img width="1920" height="1020" alt="eks-3" src="https://github.com/user-attachments/assets/6749d289-331d-485c-9a14-ef732c28c12e" />
+<img width="1920" height="1020" alt="eks-4" src="https://github.com/user-attachments/assets/a7ce2cc1-6e9d-4462-98a8-4b579a5ec65a" />
+<img width="1920" height="1020" alt="eks-5" src="https://github.com/user-attachments/assets/f8cff351-4559-4a4a-ae72-9c275cf96918" />
+<img width="1920" height="1020" alt="eks-6" src="https://github.com/user-attachments/assets/5c27c9a6-c921-4105-a039-b0580999514e" />
+<img width="1918" height="1011" alt="eks-7" src="https://github.com/user-attachments/assets/0d31555c-c214-47f5-babf-46077df8d80e" />
+
+
+
 
