@@ -1,0 +1,39 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: fib-app
+  labels:
+    app: fib
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: fib
+  template:
+    metadata:
+      labels:
+        app: fib
+    spec:
+      containers:
+      - name: fib
+        image: local/fib:latest
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 8080
+        resources:
+          requests:
+            cpu: "100m"
+          limits:
+            cpu: "500m"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: fib-svc
+spec:
+  selector:
+    app: fib
+  ports:
+    - port: 80
+      targetPort: 8080
+  type: ClusterIP

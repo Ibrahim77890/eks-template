@@ -1,0 +1,1 @@
+{"iam_roles":[{"arn":"arn:aws:iam::000000000000:role/eks-cluster-role-sim","name":"eks-cluster-role"},{"arn":"arn:aws:iam::000000000000:role/node-role-sim","name":"node-role"}],"note":"Simulated IAM roles for demo only"}
