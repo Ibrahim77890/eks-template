@@ -1,4 +1,4 @@
-# eks-sim — EKS Simulation Lab (Terraform + Helm)
+<img width="1920" height="1020" alt="eks-2" src="https://github.com/user-attachments/assets/6c81d0b1-00b3-411b-abb6-f5af665a3d8c" /><img width="1918" height="1011" alt="eks-7" src="https://github.com/user-attachments/assets/27a4f745-78fe-4699-8678-de8f7a6762d3" /># eks-sim — EKS Simulation Lab (Terraform + Helm)
 
 Rehearse a production-grade EKS architecture locally — then flip a provider to run the exact same Terraform/Helm on AWS.
 
@@ -55,3 +55,8 @@ To deploy the same setup to AWS:
 - Run terraform apply against real AWS account (beware of costs).
 
 - The repo is structured so that TF_VAR_target=local|aws can be used to change provider behaviour (sample providers.tf shows this pattern).
+
+
+Following images for local deployment :
+<img width="1918" height="1011" alt="eks-7" src="https://github.com/user-attachments/assets/b5a30942-0b00-48bd-9445-ccddbfef95ea" />
+
